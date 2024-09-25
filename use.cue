@@ -4,4 +4,4 @@ import (
 
 present: kube.present
 
-kube.roleBinding: [ID=HARR]: {}
+kube.roleBinding: [ID="harr"]: {}
