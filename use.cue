@@ -4,4 +4,6 @@ import (
 
 present: kube.present
 
-kube.roleBinding: [ID="harr"]: {}
+kube.roleBinding: {
+  "harr": {}  // this is the correct key-value pair for roleBinding
+}
