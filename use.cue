@@ -5,5 +5,7 @@ import (
 present: kube.present
 
 kube.roleBinding: {
-  "harr": {}  // this is the correct key-value pair for roleBinding
+  harr: { // here we define "harr" as the key for the roleBinding comprehension
+    // Optionally, you can add additional fields to override or extend roleBinding here
+  },
 }
