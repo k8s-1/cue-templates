@@ -4,8 +4,7 @@ GO_BIN=$(shell go env GOPATH)/bin
 
 .PHONY: install
 install:
-	@echo "Installing Cuelang version $(CUE_VERSION)..."
-	@go install cuelang.org/go/cmd/cue@$(CUE_VERSION)
+	go install cuelang.org/go/cmd/cue@$(CUE_VERSION)
 	@echo "Cuelang installed at $(GO_BIN)/cue"
 
 .PHONY: all
