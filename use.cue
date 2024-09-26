@@ -1,3 +1,4 @@
+// -t foo
 import (
   "github.com/k8s-1/templates/kube"
 )
