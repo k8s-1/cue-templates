@@ -8,11 +8,6 @@ install:
 	@go install cuelang.org/go/cmd/cue@$(CUE_VERSION)
 	@echo "Cuelang installed at $(GO_BIN)/cue"
 
-.PHONY: verify
-verify:
-	@echo "Verifying Cuelang version..."
-	$(CUE_BINARY) version
-
 .PHONY: all
-all: install verify
+all: install
 	@echo "Installation complete."
