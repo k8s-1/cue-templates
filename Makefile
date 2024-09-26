@@ -1,9 +1,7 @@
 CUE_VERSION=v0.10.0
 
-# Go binary path
 GO_BIN=$(shell go env GOPATH)/bin
 
-# Install Cuelang
 .PHONY: install
 install:
 	@echo "Installing Cuelang version $(CUE_VERSION)..."
