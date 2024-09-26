@@ -1,3 +1,5 @@
+@if(foo)
+
 package kube
 
 roleBinding: [TYPE=_]: [ID=_]: {
