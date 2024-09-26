@@ -17,4 +17,4 @@ verify:
 
 .PHONY: all
 all: install verify
-	@echo "Installation of Cuelang $(CUE_VERSION) complete."
+	@echo "Installation complete."
