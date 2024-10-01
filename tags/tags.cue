@@ -1,8 +1,4 @@
-@if(
-  foo
-  || bar
-  || beast
-)
+@if(foo || bar || beast)
 
 package tags
 
