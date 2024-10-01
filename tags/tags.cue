@@ -1,4 +1,4 @@
-@if(foo && bar)
+@if(foo || bar)
 
 package tags
 
