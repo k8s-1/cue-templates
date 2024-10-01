@@ -1,5 +1,3 @@
-@if(foo || bar)
+@if(foo || bar || beast)
 
 package tags
-
-testing: string @tag(bar)
