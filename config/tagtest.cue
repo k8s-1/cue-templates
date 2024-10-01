@@ -1,5 +1,5 @@
 import (
-  "github.com/k8s-1/templates/kube"
+  "github.com/k8s-1/templates/tags"
 )
 
 myval: "hello-world"
