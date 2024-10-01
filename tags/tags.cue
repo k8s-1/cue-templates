@@ -3,4 +3,5 @@
 package tags
 
 // empty package to prevent tag not used exceptions
-// these tags should always be used
+// e.g. if applying cue eval to many files and not 
+// all files share the same tags
