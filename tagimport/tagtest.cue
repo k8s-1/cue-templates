@@ -1,5 +1,5 @@
 // avoid tag not used error:
-// 1. use conditional @if import in another module
+// 1. use conditional @if import in another module e.g. @if(tag||tag||tag)
 // 2. use the tag directly in a file
 
 
