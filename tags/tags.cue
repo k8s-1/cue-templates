@@ -2,5 +2,5 @@
 
 package tags
 
-// package designed to contain common tags to override
-// tag not used exceptions
+// empty package to override tag not used exceptions
+// these tags should always be used
