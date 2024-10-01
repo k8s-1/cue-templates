@@ -8,6 +8,3 @@ import (
 )
 
 myval: "hello-world"
-
-val2: tag.foo
-val3: tag.bar
